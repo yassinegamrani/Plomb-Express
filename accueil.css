@@ -1,0 +1,68 @@
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.links{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.logo-p{
+    display: flex;
+    font-size: 23px;
+    color: black;
+}
+header button{
+    background-color: #FF6418;
+    border-radius: 10px;
+    border-left: 20px;
+    width: 171px;
+    height: 44px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+header button:hover{
+    background: black;
+}
+.links{
+    display: flex;
+    margin-top: 25px;
+    gap: 50px;
+    border-color: black;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+}
+.links #pg-prcipl{
+    color: blue;
+    text-decoration: underline;
+
+}
+#logo-blue{
+    color: blue; 
+}
+.articl1{
+    background-color: #F3F7FA;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 0px;
+}
+
+#img-plamb{
+    border-radius: 10px;
+}
+.articl1 button{
+    background-color: #FF6418;
+    color: white;
+    width: 218px;
+    height: 54px;
+    border-radius: 10px;
+}
+.articl1 .btn-srvce{
+    background-color: transparent;
+    color: black;
+}
+
