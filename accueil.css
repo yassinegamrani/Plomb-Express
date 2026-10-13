@@ -1,8 +1,9 @@
+
 .header-all{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
     padding-bottom: 20px;
+    align-items: center;
 }
 .links{
     margin-top: 20px;
@@ -19,7 +20,6 @@ header button{
     border-left: 20px;
     width: 171px;
     height: 44px;
-    margin-top: 20px;
     color: aliceblue;
 }
 header button:hover{
@@ -27,7 +27,6 @@ header button:hover{
 }
 .links{
     display: flex;
-    margin-top: 25px;
     gap: 50px;
     border-color: black;
 }
@@ -64,5 +63,34 @@ header button:hover{
 .articl1 .btn-srvce{
     background-color: transparent;
     color: black;
+}
+.sous-articl{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3F7FA;
+}
+#logos-sous{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#head-3s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#head-3s p{
+    color: #0866C2;
+    font-size: 12px;
+}
+#troi-pic{
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    color: #0866C2;
+}
+.brdsous-pic{
+    border: 1px ;
 }
 
