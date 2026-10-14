@@ -5,6 +5,9 @@
     padding-bottom: 20px;
     align-items: center;
 }
+p{
+    font-size: 20px;
+}
 .links{
     margin-top: 20px;
     font-size: 17px;
@@ -87,6 +90,7 @@ header button:hover{
     width: 100%;
     height: 210px;
     display: flex;
+    justify-content: space-around;
         
 }
 i{
@@ -94,7 +98,13 @@ i{
 }
 .btn-besoin{
     text-align: center;
-    
+}
+#btn--middle{
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #102A43 ;
 }
 .befor-ftr{
     display: flex;
@@ -113,14 +123,37 @@ i{
     display: flex;
     align-items: center;
 }
+.logo-ftr{
+    display: flex;
+}
 
-
-
-
-@media (max-width :500px ) {
+.footer-left{
+    display: flex;
+    flex-direction: column;}
+.logo--flex{
+    display: flex;
+    font-size: 25px;
+}
+.logo--paragraphe{
+    size: 25px;
+}
+.logos-ftr{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:550px){
+    *{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .links{
         display: none;
     }
-    
+    .fa-solid fa-bars{
+        display: block;
+    }
 }
-
