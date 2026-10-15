@@ -5,6 +5,8 @@
     padding-bottom: 20px;
     align-items: center;
 }
+
+
 p{
     font-size: 20px;
 }
@@ -148,12 +150,74 @@ footer{
 @media screen and (max-width:550px){
     *{
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+        width:550px ;
+    }
+    .articl1{
+        padding: 0px;
+    }
+    .logo-p {
+        display: flex;
+        align-items: center;
+    
+    }
+    button{
+        display: flex;
+        text-align: center;
+    }
+    .logo-paragraph{
+        display: flex;
+        align-items: center;
+        .logo-blue{
+            margin-left:50px ;
+        }
     }
     .links{
         display: none;
     }
-    .fa-solid fa-bars{
-        display: block;
+    #pg-prcipl{
+        display: none;
+    }
+    .header-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+    #header-button{ 
+        display: flex;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+  
+    }
+    title{
+        display: none;
+    }
+    .logo-p img{
+        width: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .articl1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .brdsous-pic{
+        display: flex;
+        flex-direction: column;
     }
 }
+
+/* complet media */
+
+/* veille */
+
